@@ -1,10 +1,5 @@
 Select *
 From ProjectCovid..CovidDeaths
-order by 3,4
-
---Select *
---From ProjectCovid..CovidVaccinations
---order by 3,4
 
 Select Location, date, total_cases, new_cases, total_deaths, population
 From ProjectCovid..CovidDeaths
